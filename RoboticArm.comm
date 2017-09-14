@@ -1,0 +1,17 @@
+
+class IDLE:
+    pass
+
+class OFF:
+    pass
+
+class ROBOTICARM:
+    def master():
+        def events():
+            moveToHigh 
+            moveToLow 
+            magnetOn 
+            magnetOff
+            armUp 
+            armDown
+            goHome 
